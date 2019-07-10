@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main()
 {
-    int N,i;
-    scanf("%d",&N);
-    for(i=0;i<N;i++)
+    int V,k;
+    scanf("%d",&V);
+    for(k=0;k<V;k++)
     {
         printf("Hello\n");
     }
