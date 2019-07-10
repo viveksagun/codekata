@@ -2,15 +2,15 @@
 #include<conio.h>
 void main()
 {
-int n;
-scanf("%d",&n);
-if(n>0)
+int v;
+scanf("%d",&v);
+if(v>0)
 {
-printf("positive");
+printf("positive number");
 }
 else
 {
-printf("negative");
+printf("negative number");
 }
 getch();
 }
