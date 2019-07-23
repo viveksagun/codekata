@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-    int n,i,a[100],j,temp=0;
+    int n,i,a[100],j,temp=0,v=0;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
@@ -21,6 +21,14 @@ void main()
                 }
                 printf("%d ",a[i]);
             }
+            else
+            {
+                v++;
+            }
         }
+    }
+    if(v==(n*2))
+    {
+        printf("unique");
     }
 }
